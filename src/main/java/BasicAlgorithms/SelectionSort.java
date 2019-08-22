@@ -19,6 +19,7 @@ public class SelectionSort {
                 }
             }
 
+            //将当前最小值放在未排序序列第一位
             if (min != i){
                 int temp = a[i];
                 a[i] = a[min];
